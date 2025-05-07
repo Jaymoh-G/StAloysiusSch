@@ -16,14 +16,7 @@
                     </div>
                     <div class="collapse navbar-collapse" id="main_nav">
                         <ul class="navbar-nav">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown">Home</a>
-                                <ul class="dropdown-menu fade-down">
-                                    <li><a class="dropdown-item" href="index.html">Home 2Page 01</a></li>
-                                    <li><a class="dropdown-item" href="index-2.html">Home Page 02</a></li>
-                                    <li><a class="dropdown-item" href="index-3.html">Home Page 03</a></li>
-                                </ul>
-                            </li>
+                            <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Courses</a>
                                 <ul class="dropdown-menu fade-down">
@@ -92,7 +85,7 @@
                                                         </li>
                                                         <li><a class="dropdown-item" href="faculty-single.html">Faculty
                                                                 Single</a></li>
-                                                        <li><a class="dropdown-item" href="contact.html">Contact With
+                                                        <li><a class="dropdown-item" href="{{ route('contact') }}">Contact With
                                                                 Us</a></li>
                                                     </ul>
                                                 </div>
@@ -195,13 +188,13 @@
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Blog</a>
+                                <a class="nav-link dropdown-toggle" href="{{route('updates')}}" data-bs-toggle="dropdown">Updates</a>
                                 <ul class="dropdown-menu fade-down">
-                                    <li><a class="dropdown-item" href="blog.html">Blog</a></li>
-                                    <li><a class="dropdown-item" href="blog-single.html">Blog Single</a></li>
+                                    <li><a class="dropdown-item" href="{{route('updates')}}">Updates</a></li>
+                                    <li><a class="dropdown-item" href="{{route('updates-single')}}">Blog Single</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ route('contact') }}">Contact Us</a></li>
                         </ul>
                         <div class="nav-right">
                             <div class="search-btn">
