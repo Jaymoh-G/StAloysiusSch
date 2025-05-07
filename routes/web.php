@@ -1,13 +1,50 @@
 <?php
 
+use App\Livewire\Frontend\Club;
+use App\Livewire\Frontend\Faqs;
 use App\Livewire\Frontend\Home;
+use App\Livewire\Frontend\Event;
+use App\Livewire\Frontend\Media;
+use App\Livewire\Frontend\Donate;
+use App\Livewire\Frontend\Events;
+use App\Livewire\Frontend\JoinUs;
+use App\Livewire\Frontend\AboutUs;
+use App\Livewire\Frontend\OurTeam;
+use App\Livewire\Frontend\Teacher;
 use App\Livewire\Frontend\Updates;
+use App\Livewire\Frontend\Facility;
+use App\Livewire\Frontend\OurClubs;
+use App\Livewire\Frontend\Teachers;
 use App\Livewire\Frontend\ContactUs;
+use App\Livewire\Frontend\TeamMember;
 use Illuminate\Support\Facades\Route;
+use App\Livewire\Frontend\SuccessStory;
+use App\Livewire\Frontend\Testimonials;
+use App\Livewire\Frontend\OurFacilities;
+use App\Livewire\Frontend\SuccessStories;
 use App\Livewire\Frontend\UpdatesSinglePage;
-
+use App\Livewire\Frontend\AcademicDepartment;
+use App\Livewire\Frontend\AcademicDepartments;
 
 Route::get('/', Home::class);
 Route::get('/contact-us', ContactUs::class)->name('contact');
 Route::get('/updates', Updates::class)->name('updates');
 Route::get('/updates-single', UpdatesSinglePage::class)->name('updates-single');
+Route::get('/our-facilities', OurFacilities::class)->name('our-facilities');
+Route::get('/facility', Facility::class)->name('facility');
+Route::get('/our-clubs', OurClubs::class)->name('our-clubs');
+Route::get('/about-us', AboutUs::class)->name('about-us');
+Route::get('/club', Club::class)->name('club');
+Route::get('/donate', Donate::class)->name('donate');
+Route::get('/events', Events::class)->name('events');
+Route::get('/event', Event::class)->name('event');
+Route::get('/our-team', OurTeam::class)->name('our-team');
+Route::get('/team-member', TeamMember::class)->name('team-member');
+Route::get('/media', Media::class)->name('media');
+Route::get('/academic-departments', AcademicDepartments::class)->name('academic-departments');
+Route::get('/academic-department', AcademicDepartment::class)->name('academic-department');
+Route::get('/faqs', Faqs::class)->name('faqs');
+Route::get('/testimonials', Testimonials::class)->name('testimonials');
+Route::get('/join-us', JoinUs::class)->name('join-us');
+Route::get('/success-story', SuccessStory::class)->name('success-story');
+Route::get('/success-stories', SuccessStories::class)->name('success-stories');

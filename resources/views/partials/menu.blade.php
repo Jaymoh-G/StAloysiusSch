@@ -18,12 +18,6 @@
                         <ul class="navbar-nav">
                             <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Courses</a>
-                                <ul class="dropdown-menu fade-down">
-                                    <li><a class="dropdown-item" href="course.html">Courses One</a></li>
-                                    <li><a class="dropdown-item" href="course-2.html">Courses Two</a></li>
-                                    <li><a class="dropdown-item" href="course-single.html">Course Single One</a></li>
-                                    <li><a class="dropdown-item" href="course-single-2.html">Course Single Two</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item mega-menu dropdown">
@@ -97,94 +91,74 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Pages</a>
                                 <ul class="dropdown-menu fade-down">
-                                    <li><a class="dropdown-item" href="about.html">About Us</a></li>
+                                    <li><a class="dropdown-item" href="{{route('about-us')}}">About Us</a></li>
                                     <li class="dropdown-submenu">
                                         <a class="dropdown-item dropdown-toggle" href="#">Events</a>
                                         <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="event.html">Events</a></li>
-                                            <li><a class="dropdown-item" href="event-single.html">Event Single</a></li>
+                                            <li><a class="dropdown-item" href="{{route('events')}}">Events</a></li>
+                                            <li><a class="dropdown-item" href="{{route('event')}}">Event Single</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown-submenu">
-                                        <a class="dropdown-item dropdown-toggle" href="#">Portfolio</a>
+                                        <a class="dropdown-item dropdown-toggle" href="#">Sucess Stories</a>
                                         <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="portfolio.html">Portfolio</a></li>
-                                            <li><a class="dropdown-item" href="portfolio-single.html">Portfolio
-                                                    Single</a></li>
+                                            <li><a class="dropdown-item" href="{{route('success-stories')}}">Success Stories</a></li>
+                                            <li><a class="dropdown-item" href="{{route('success-story')}}">Success Story</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown-submenu">
                                         <a class="dropdown-item dropdown-toggle" href="#">Teachers</a>
                                         <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="teacher.html">Teachers One</a></li>
-                                            <li><a class="dropdown-item" href="teacher-2.html">Teachers Two</a></li>
-                                            <li><a class="dropdown-item" href="teacher-single.html">Teachers Single</a>
+                                            <li><a class="dropdown-item" href="{{route('our-team')}}">Teachers</a></li>
+                                            <li><a class="dropdown-item" href="{{route('team-member')}}">Teachers Single</a>
                                             </li>
                                         </ul>
                                     </li>
-                                    <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
+                                    <li><a class="dropdown-item" href="{{route('media')}}">Media</a></li>
                                     <li class="dropdown-submenu">
                                         <a class="dropdown-item dropdown-toggle" href="#">Authentication</a>
                                         <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="login.html">Login</a></li>
-                                            <li><a class="dropdown-item" href="register.html">Register</a></li>
-                                            <li><a class="dropdown-item" href="forgot-password.html">Forgot Password</a>
                                             </li>
                                         </ul>
                                     </li>
-                                    <li><a class="dropdown-item" href="pricing.html">Pricing Plan</a></li>
-                                    <li><a class="dropdown-item" href="faq.html">Faq</a></li>
+                                    <li><a class="dropdown-item" href="{{route('faqs')}}">Faq</a></li>
                                     <li><a class="dropdown-item" href="testimonial.html">Testimonials</a></li>
                                     <li><a class="dropdown-item" href="404.html">404 Error</a></li>
                                     <li><a class="dropdown-item" href="coming-soon.html">Coming Soon</a></li>
-                                    <li><a class="dropdown-item" href="terms.html">Terms Of Service</a></li>
-                                    <li><a class="dropdown-item" href="privacy.html">Privacy Policy</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Admissions</a>
                                 <ul class="dropdown-menu fade-down">
-                                    <li><a class="dropdown-item" href="how-to-apply.html">How To Apply</a></li>
-                                    <li><a class="dropdown-item" href="application-form.html">Application Form</a></li>
+                                    <li><a class="dropdown-item" href="{{route('join-us')}}">How To Apply</a></li>
                                     <li class="dropdown-submenu">
-                                        <a class="dropdown-item dropdown-toggle" href="#">Our Campus</a>
                                         <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="campus-tour.html">Campus Tour</a></li>
-                                            <li><a class="dropdown-item" href="campus-life.html">Campus Life</a></li>
-                                            <li><a class="dropdown-item" href="notice-board.html">Notice Board</a></li>
-                                            <li><a class="dropdown-item" href="student-activities.html">Student
-                                                    Activities</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown-submenu">
                                         <a class="dropdown-item dropdown-toggle" href="#">Our Facilities</a>
                                         <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="facility.html">Facilities</a></li>
-                                            <li><a class="dropdown-item" href="facility-single.html">Facility Single</a>
+                                            <li><a class="dropdown-item" href="{{route('our-facilities')}}">Facilities</a></li>
+                                            <li><a class="dropdown-item" href="{{route('facility')}}">Facility Single</a>
                                             </li>
                                         </ul>
                                     </li>
                                     <li class="dropdown-submenu">
-                                        <a class="dropdown-item dropdown-toggle" href="#">Our Research</a>
                                         <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="research.html">Research</a></li>
-                                            <li><a class="dropdown-item" href="research-single.html">Research Single</a>
                                             </li>
                                         </ul>
                                     </li>
                                     <li class="dropdown-submenu">
                                         <a class="dropdown-item dropdown-toggle" href="#">Our Clubs</a>
                                         <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="club.html">Our Clubs</a></li>
-                                            <li><a class="dropdown-item" href="club-single.html">Club Single</a></li>
+                                            <li><a class="dropdown-item" href="{{route('our-clubs')}}">Our Clubs</a></li>
+                                            <li><a class="dropdown-item" href="{{route('club')}}">Club Single</a></li>
                                         </ul>
                                     </li>
                                     <li><a class="dropdown-item" href="tuition-fee.html">Tuition Fees</a></li>
                                     <li><a class="dropdown-item" href="alumni.html">Alumni</a></li>
                                     <li><a class="dropdown-item" href="scholarship.html">Scholarships</a></li>
-                                    <li><a class="dropdown-item" href="our-fund.html">Our Fund</a></li>
-                                    <li><a class="dropdown-item" href="athletics.html">Athletics</a></li>
-                                    <li><a class="dropdown-item" href="health-care.html">Health Care</a></li>
+                                    <li><a class="dropdown-item" href="{{route('donate')}}">Donate</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
