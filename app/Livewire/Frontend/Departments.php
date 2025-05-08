@@ -4,10 +4,10 @@ namespace App\Livewire\Frontend;
 
 use Livewire\Component;
 
-class AcademicDepartments extends Component
+class Departments extends Component
 {
     public function render()
     {
-        return view('livewire.frontend.academic-departments');
+        return view('livewire.frontend.departments');
     }
 }
