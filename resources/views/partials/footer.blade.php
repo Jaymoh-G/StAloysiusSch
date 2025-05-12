@@ -26,12 +26,12 @@
                         <div class="footer-widget-box list">
                             <h4 class="footer-widget-title">Quick Links</h4>
                             <ul class="footer-list">
-                                <li><a href="#"><i class="fas fa-caret-right"></i> About Us</a></li>
-                                <li><a href="#"><i class="fas fa-caret-right"></i> FAQ's</a></li>
-                                <li><a href="#"><i class="fas fa-caret-right"></i> Testimonials</a></li>
-                                <li><a href="#"><i class="fas fa-caret-right"></i> Terms Of Service</a></li>
-                                <li><a href="#"><i class="fas fa-caret-right"></i> Privacy policy</a></li>
-                                <li><a href="#"><i class="fas fa-caret-right"></i> Update News</a></li>
+                                <li><a href="#"><i class="fas fa-caret-right"></i> Events</a></li>
+                                <li><a href="#"><i class="fas fa-caret-right"></i> Careers</a></li>
+                                <li><a href="#"><i class="fas fa-caret-right"></i> Admissions</a></li>
+                                <li><a href="#"><i class="fas fa-caret-right"></i> FAQs</a></li>
+                                <li><a href="#"><i class="fas fa-caret-right"></i> Downloads</a></li>
+                                <li><a href="#"><i class="fas fa-caret-right"></i> Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -39,12 +39,12 @@
                         <div class="footer-widget-box list">
                             <h4 class="footer-widget-title">Our Campus</h4>
                             <ul class="footer-list">
-                                <li><a href="#"><i class="fas fa-caret-right"></i> Campus Safety</a></li>
-                                <li><a href="#"><i class="fas fa-caret-right"></i> Student Activities</a></li>
-                                <li><a href="#"><i class="fas fa-caret-right"></i> Academic Department</a></li>
-                                <li><a href="#"><i class="fas fa-caret-right"></i> Planning & Administration</a></li>
-                                <li><a href="#"><i class="fas fa-caret-right"></i> Office Of The Chancellor</a></li>
-                                <li><a href="#"><i class="fas fa-caret-right"></i> Facility Services</a></li>
+                                <li><a href="#"><i class="fas fa-caret-right"></i> Co-Curricular Activities</a></li>
+                                <li><a href="#"><i class="fas fa-caret-right"></i> Success Stories</a></li>
+                                <li><a href="#"><i class="fas fa-caret-right"></i> Media Centre</a></li>
+                                <li><a href="#"><i class="fas fa-caret-right"></i> Christian Life Community</a></li>
+                                <li><a href="#"><i class="fas fa-caret-right"></i> Departments</a></li>
+                                <li><a href="#"><i class="fas fa-caret-right"></i> Support Us</a></li>
                             </ul>
                         </div>
                     </div>
